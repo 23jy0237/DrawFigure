@@ -11,8 +11,10 @@ public class DrawFigure {
 	public static void main(String[] args) {
 		EZ.initialize(400, 400); // 画面の大きさを決める．
 
+		
+		
 		//背景色を設定
-		EZ.setBackgroundColor(Color.PINK);
+		EZ.setBackgroundColor(Color.YELLOW);
 
 		//線を描く(始点x, 始点y, 終点x, 終点y, 色, 線幅)
 		EZ.addLine(40,0, 40,50, Color.RED, 1);
